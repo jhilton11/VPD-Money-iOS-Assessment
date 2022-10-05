@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8699AD284F3E9C3501B300B5 /* Pods_VPD_Money_AssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA776D39E8222040C0029A80 /* Pods_VPD_Money_AssessmentTests.framework */; };
+		A26D91E8E7D87252682AF31E /* Pods_VPD_Money_Assessment_VPD_Money_AssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C333F7409DE5FCBA923FDD9 /* Pods_VPD_Money_Assessment_VPD_Money_AssessmentUITests.framework */; };
+		CE55019428E75F900087C6FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55019328E75F900087C6FA /* AppDelegate.swift */; };
+		CE55019628E75F900087C6FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55019528E75F900087C6FA /* SceneDelegate.swift */; };
+		CE55019828E75F900087C6FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55019728E75F900087C6FA /* ViewController.swift */; };
+		CE55019B28E75F900087C6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55019928E75F900087C6FA /* Main.storyboard */; };
+		CE55019D28E75F970087C6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE55019C28E75F970087C6FA /* Assets.xcassets */; };
+		CE5501A028E75F970087C6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55019E28E75F970087C6FA /* LaunchScreen.storyboard */; };
+		CE5501AB28E75F980087C6FA /* VPD_Money_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501AA28E75F980087C6FA /* VPD_Money_AssessmentTests.swift */; };
+		CE5501B528E75F980087C6FA /* VPD_Money_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501B428E75F980087C6FA /* VPD_Money_AssessmentUITests.swift */; };
+		CE5501B728E75F980087C6FA /* VPD_Money_AssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501B628E75F980087C6FA /* VPD_Money_AssessmentUITestsLaunchTests.swift */; };
+		CE5501C528E75FDB0087C6FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501C428E75FDB0087C6FA /* User.swift */; };
+		CE5501C828E761EC0087C6FA /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501C728E761EC0087C6FA /* ApiManager.swift */; };
+		CE5501CB28E763E80087C6FA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501CA28E763E80087C6FA /* HomeViewModel.swift */; };
+		CE5501CD28E76A330087C6FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501CC28E76A320087C6FA /* DetailViewController.swift */; };
+		CE5501CF28E785820087C6FA /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501CE28E785810087C6FA /* AddUserViewController.swift */; };
+		CE5501D128E794150087C6FA /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501D028E794140087C6FA /* MyTextField.swift */; };
+		CE5501D328EA1B570087C6FA /* AddUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501D228EA1B570087C6FA /* AddUserViewModel.swift */; };
+		CE5501D628EA36380087C6FA /* TestDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501D528EA36380087C6FA /* TestDetailViewModel.swift */; };
+		CE5501D828EAA0AC0087C6FA /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501D728EAA0AC0087C6FA /* UserCell.swift */; };
+		CE5501DA28EB241F0087C6FA /* UserLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5501D928EB241F0087C6FA /* UserLabel.swift */; };
+		CE8B30E828EC8096009DBD71 /* RealmUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B30E728EC8096009DBD71 /* RealmUser.swift */; };
+		CE8B30EB28EC858C009DBD71 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B30EA28EC858C009DBD71 /* RealmManager.swift */; };
+		E0C6E3043764F69D9A8EE8E9 /* Pods_VPD_Money_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E4E95679EFB7DA2A8B2697 /* Pods_VPD_Money_Assessment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5501A728E75F980087C6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE55018828E75F900087C6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE55018F28E75F900087C6FA;
+			remoteInfo = "VPD Money Assessment";
+		};
+		CE5501B128E75F980087C6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE55018828E75F900087C6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE55018F28E75F900087C6FA;
+			remoteInfo = "VPD Money Assessment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E4E95679EFB7DA2A8B2697 /* Pods_VPD_Money_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPD_Money_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE47983EC750A15F90BBB7B /* Pods-VPD Money Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPD Money Assessment.debug.xcconfig"; path = "Target Support Files/Pods-VPD Money Assessment/Pods-VPD Money Assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		339654230F08EBCF79D9ACB3 /* Pods-VPD Money AssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPD Money AssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-VPD Money AssessmentTests/Pods-VPD Money AssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		549967767E449D27593981DE /* Pods-VPD Money Assessment-VPD Money AssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPD Money Assessment-VPD Money AssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-VPD Money Assessment-VPD Money AssessmentUITests/Pods-VPD Money Assessment-VPD Money AssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58B8F89EFD5117141E42B482 /* Pods-VPD Money Assessment-VPD Money AssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPD Money Assessment-VPD Money AssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-VPD Money Assessment-VPD Money AssessmentUITests/Pods-VPD Money Assessment-VPD Money AssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C333F7409DE5FCBA923FDD9 /* Pods_VPD_Money_Assessment_VPD_Money_AssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPD_Money_Assessment_VPD_Money_AssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835AB527F57BE5B8B2B449A8 /* Pods-VPD Money Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPD Money Assessment.release.xcconfig"; path = "Target Support Files/Pods-VPD Money Assessment/Pods-VPD Money Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		AAC38C790F60A720FBFA43FC /* Pods-VPD Money AssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPD Money AssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-VPD Money AssessmentTests/Pods-VPD Money AssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA776D39E8222040C0029A80 /* Pods_VPD_Money_AssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPD_Money_AssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE55019028E75F900087C6FA /* VPD Money Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPD Money Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE55019328E75F900087C6FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE55019528E75F900087C6FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE55019728E75F900087C6FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE55019A28E75F900087C6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE55019C28E75F970087C6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE55019F28E75F970087C6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE5501A128E75F970087C6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5501A628E75F980087C6FA /* VPD Money AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPD Money AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5501AA28E75F980087C6FA /* VPD_Money_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPD_Money_AssessmentTests.swift; sourceTree = "<group>"; };
+		CE5501B028E75F980087C6FA /* VPD Money AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPD Money AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5501B428E75F980087C6FA /* VPD_Money_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPD_Money_AssessmentUITests.swift; sourceTree = "<group>"; };
+		CE5501B628E75F980087C6FA /* VPD_Money_AssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPD_Money_AssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE5501C428E75FDB0087C6FA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE5501C728E761EC0087C6FA /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		CE5501CA28E763E80087C6FA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CE5501CC28E76A320087C6FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE5501CE28E785810087C6FA /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		CE5501D028E794140087C6FA /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		CE5501D228EA1B570087C6FA /* AddUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewModel.swift; sourceTree = "<group>"; };
+		CE5501D528EA36380087C6FA /* TestDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailViewModel.swift; sourceTree = "<group>"; };
+		CE5501D728EAA0AC0087C6FA /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		CE5501D928EB241F0087C6FA /* UserLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLabel.swift; sourceTree = "<group>"; };
+		CE8B30E728EC8096009DBD71 /* RealmUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmUser.swift; sourceTree = "<group>"; };
+		CE8B30EA28EC858C009DBD71 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE55018D28E75F900087C6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C6E3043764F69D9A8EE8E9 /* Pods_VPD_Money_Assessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5501A328E75F980087C6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8699AD284F3E9C3501B300B5 /* Pods_VPD_Money_AssessmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5501AD28E75F980087C6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D91E8E7D87252682AF31E /* Pods_VPD_Money_Assessment_VPD_Money_AssessmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F849D7B76221EFB986C785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08E4E95679EFB7DA2A8B2697 /* Pods_VPD_Money_Assessment.framework */,
+				6C333F7409DE5FCBA923FDD9 /* Pods_VPD_Money_Assessment_VPD_Money_AssessmentUITests.framework */,
+				CA776D39E8222040C0029A80 /* Pods_VPD_Money_AssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE55018728E75F900087C6FA = {
+			isa = PBXGroup;
+			children = (
+				CE55019228E75F900087C6FA /* VPD Money Assessment */,
+				CE5501A928E75F980087C6FA /* VPD Money AssessmentTests */,
+				CE5501B328E75F980087C6FA /* VPD Money AssessmentUITests */,
+				CE55019128E75F900087C6FA /* Products */,
+				DEED674C445E4F3E9A94BCA9 /* Pods */,
+				41F849D7B76221EFB986C785 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE55019128E75F900087C6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE55019028E75F900087C6FA /* VPD Money Assessment.app */,
+				CE5501A628E75F980087C6FA /* VPD Money AssessmentTests.xctest */,
+				CE5501B028E75F980087C6FA /* VPD Money AssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE55019228E75F900087C6FA /* VPD Money Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				CE8B30E928EC8579009DBD71 /* Realm */,
+				CE5501D428EA347A0087C6FA /* View */,
+				CE5501C928E763A70087C6FA /* ViewModel */,
+				CE5501C628E761DA0087C6FA /* Api */,
+				CE5501C328E75FC70087C6FA /* Model */,
+				CE55019328E75F900087C6FA /* AppDelegate.swift */,
+				CE55019528E75F900087C6FA /* SceneDelegate.swift */,
+				CE55019928E75F900087C6FA /* Main.storyboard */,
+				CE55019C28E75F970087C6FA /* Assets.xcassets */,
+				CE55019E28E75F970087C6FA /* LaunchScreen.storyboard */,
+				CE5501A128E75F970087C6FA /* Info.plist */,
+			);
+			path = "VPD Money Assessment";
+			sourceTree = "<group>";
+		};
+		CE5501A928E75F980087C6FA /* VPD Money AssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5501AA28E75F980087C6FA /* VPD_Money_AssessmentTests.swift */,
+				CE5501D528EA36380087C6FA /* TestDetailViewModel.swift */,
+			);
+			path = "VPD Money AssessmentTests";
+			sourceTree = "<group>";
+		};
+		CE5501B328E75F980087C6FA /* VPD Money AssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5501B428E75F980087C6FA /* VPD_Money_AssessmentUITests.swift */,
+				CE5501B628E75F980087C6FA /* VPD_Money_AssessmentUITestsLaunchTests.swift */,
+			);
+			path = "VPD Money AssessmentUITests";
+			sourceTree = "<group>";
+		};
+		CE5501C328E75FC70087C6FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE5501C428E75FDB0087C6FA /* User.swift */,
+				CE8B30E728EC8096009DBD71 /* RealmUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE5501C628E761DA0087C6FA /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				CE5501C728E761EC0087C6FA /* ApiManager.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		CE5501C928E763A70087C6FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE5501D228EA1B570087C6FA /* AddUserViewModel.swift */,
+				CE5501CA28E763E80087C6FA /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE5501D428EA347A0087C6FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE5501D028E794140087C6FA /* MyTextField.swift */,
+				CE5501CC28E76A320087C6FA /* DetailViewController.swift */,
+				CE5501CE28E785810087C6FA /* AddUserViewController.swift */,
+				CE55019728E75F900087C6FA /* ViewController.swift */,
+				CE5501D728EAA0AC0087C6FA /* UserCell.swift */,
+				CE5501D928EB241F0087C6FA /* UserLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE8B30E928EC8579009DBD71 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				CE8B30EA28EC858C009DBD71 /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		DEED674C445E4F3E9A94BCA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE47983EC750A15F90BBB7B /* Pods-VPD Money Assessment.debug.xcconfig */,
+				835AB527F57BE5B8B2B449A8 /* Pods-VPD Money Assessment.release.xcconfig */,
+				549967767E449D27593981DE /* Pods-VPD Money Assessment-VPD Money AssessmentUITests.debug.xcconfig */,
+				58B8F89EFD5117141E42B482 /* Pods-VPD Money Assessment-VPD Money AssessmentUITests.release.xcconfig */,
+				AAC38C790F60A720FBFA43FC /* Pods-VPD Money AssessmentTests.debug.xcconfig */,
+				339654230F08EBCF79D9ACB3 /* Pods-VPD Money AssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE55018F28E75F900087C6FA /* VPD Money Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5501BA28E75F980087C6FA /* Build configuration list for PBXNativeTarget "VPD Money Assessment" */;
+			buildPhases = (
+				304DAA997C029FD6D0F6181E /* [CP] Check Pods Manifest.lock */,
+				CE55018C28E75F900087C6FA /* Sources */,
+				CE55018D28E75F900087C6FA /* Frameworks */,
+				CE55018E28E75F900087C6FA /* Resources */,
+				AAEE3D93097666663E37F7CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VPD Money Assessment";
+			productName = "VPD Money Assessment";
+			productReference = CE55019028E75F900087C6FA /* VPD Money Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5501A528E75F980087C6FA /* VPD Money AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5501BD28E75F980087C6FA /* Build configuration list for PBXNativeTarget "VPD Money AssessmentTests" */;
+			buildPhases = (
+				6489BB2CC54DC247E26E6E74 /* [CP] Check Pods Manifest.lock */,
+				CE5501A228E75F980087C6FA /* Sources */,
+				CE5501A328E75F980087C6FA /* Frameworks */,
+				CE5501A428E75F980087C6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5501A828E75F980087C6FA /* PBXTargetDependency */,
+			);
+			name = "VPD Money AssessmentTests";
+			productName = "VPD Money AssessmentTests";
+			productReference = CE5501A628E75F980087C6FA /* VPD Money AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE5501AF28E75F980087C6FA /* VPD Money AssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5501C028E75F980087C6FA /* Build configuration list for PBXNativeTarget "VPD Money AssessmentUITests" */;
+			buildPhases = (
+				45E07C2C851031DBE704DA02 /* [CP] Check Pods Manifest.lock */,
+				CE5501AC28E75F980087C6FA /* Sources */,
+				CE5501AD28E75F980087C6FA /* Frameworks */,
+				CE5501AE28E75F980087C6FA /* Resources */,
+				151613955687B4901CE1257E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5501B228E75F980087C6FA /* PBXTargetDependency */,
+			);
+			name = "VPD Money AssessmentUITests";
+			productName = "VPD Money AssessmentUITests";
+			productReference = CE5501B028E75F980087C6FA /* VPD Money AssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE55018828E75F900087C6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CE55018F28E75F900087C6FA = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CE5501A528E75F980087C6FA = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CE55018F28E75F900087C6FA;
+					};
+					CE5501AF28E75F980087C6FA = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CE55018F28E75F900087C6FA;
+					};
+				};
+			};
+			buildConfigurationList = CE55018B28E75F900087C6FA /* Build configuration list for PBXProject "VPD Money Assessment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE55018728E75F900087C6FA;
+			productRefGroup = CE55019128E75F900087C6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE55018F28E75F900087C6FA /* VPD Money Assessment */,
+				CE5501A528E75F980087C6FA /* VPD Money AssessmentTests */,
+				CE5501AF28E75F980087C6FA /* VPD Money AssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE55018E28E75F900087C6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5501A028E75F970087C6FA /* LaunchScreen.storyboard in Resources */,
+				CE55019D28E75F970087C6FA /* Assets.xcassets in Resources */,
+				CE55019B28E75F900087C6FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5501A428E75F980087C6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5501AE28E75F980087C6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		151613955687B4901CE1257E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPD Money Assessment-VPD Money AssessmentUITests/Pods-VPD Money Assessment-VPD Money AssessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPD Money Assessment-VPD Money AssessmentUITests/Pods-VPD Money Assessment-VPD Money AssessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VPD Money Assessment-VPD Money AssessmentUITests/Pods-VPD Money Assessment-VPD Money AssessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		304DAA997C029FD6D0F6181E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPD Money Assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E07C2C851031DBE704DA02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPD Money Assessment-VPD Money AssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6489BB2CC54DC247E26E6E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPD Money AssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAEE3D93097666663E37F7CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPD Money Assessment/Pods-VPD Money Assessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPD Money Assessment/Pods-VPD Money Assessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VPD Money Assessment/Pods-VPD Money Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE55018C28E75F900087C6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5501C528E75FDB0087C6FA /* User.swift in Sources */,
+				CE5501CB28E763E80087C6FA /* HomeViewModel.swift in Sources */,
+				CE55019828E75F900087C6FA /* ViewController.swift in Sources */,
+				CE5501D328EA1B570087C6FA /* AddUserViewModel.swift in Sources */,
+				CE5501D128E794150087C6FA /* MyTextField.swift in Sources */,
+				CE8B30EB28EC858C009DBD71 /* RealmManager.swift in Sources */,
+				CE5501DA28EB241F0087C6FA /* UserLabel.swift in Sources */,
+				CE8B30E828EC8096009DBD71 /* RealmUser.swift in Sources */,
+				CE5501C828E761EC0087C6FA /* ApiManager.swift in Sources */,
+				CE55019428E75F900087C6FA /* AppDelegate.swift in Sources */,
+				CE5501CF28E785820087C6FA /* AddUserViewController.swift in Sources */,
+				CE55019628E75F900087C6FA /* SceneDelegate.swift in Sources */,
+				CE5501D828EAA0AC0087C6FA /* UserCell.swift in Sources */,
+				CE5501CD28E76A330087C6FA /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5501A228E75F980087C6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5501AB28E75F980087C6FA /* VPD_Money_AssessmentTests.swift in Sources */,
+				CE5501D628EA36380087C6FA /* TestDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5501AC28E75F980087C6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5501B728E75F980087C6FA /* VPD_Money_AssessmentUITestsLaunchTests.swift in Sources */,
+				CE5501B528E75F980087C6FA /* VPD_Money_AssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE5501A828E75F980087C6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE55018F28E75F900087C6FA /* VPD Money Assessment */;
+			targetProxy = CE5501A728E75F980087C6FA /* PBXContainerItemProxy */;
+		};
+		CE5501B228E75F980087C6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE55018F28E75F900087C6FA /* VPD Money Assessment */;
+			targetProxy = CE5501B128E75F980087C6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE55019928E75F900087C6FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE55019A28E75F900087C6FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE55019E28E75F970087C6FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE55019F28E75F970087C6FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5501B828E75F980087C6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE5501B928E75F980087C6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5501BB28E75F980087C6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE47983EC750A15F90BBB7B /* Pods-VPD Money Assessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23XA4RQVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPD Money Assessment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appify.VPD-Money-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE5501BC28E75F980087C6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835AB527F57BE5B8B2B449A8 /* Pods-VPD Money Assessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23XA4RQVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPD Money Assessment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appify.VPD-Money-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE5501BE28E75F980087C6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC38C790F60A720FBFA43FC /* Pods-VPD Money AssessmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23XA4RQVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appify.VPD-Money-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPD Money Assessment.app/VPD Money Assessment";
+			};
+			name = Debug;
+		};
+		CE5501BF28E75F980087C6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339654230F08EBCF79D9ACB3 /* Pods-VPD Money AssessmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23XA4RQVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appify.VPD-Money-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPD Money Assessment.app/VPD Money Assessment";
+			};
+			name = Release;
+		};
+		CE5501C128E75F980087C6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549967767E449D27593981DE /* Pods-VPD Money Assessment-VPD Money AssessmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23XA4RQVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appify.VPD-Money-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPD Money Assessment";
+			};
+			name = Debug;
+		};
+		CE5501C228E75F980087C6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B8F89EFD5117141E42B482 /* Pods-VPD Money Assessment-VPD Money AssessmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23XA4RQVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appify.VPD-Money-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPD Money Assessment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE55018B28E75F900087C6FA /* Build configuration list for PBXProject "VPD Money Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5501B828E75F980087C6FA /* Debug */,
+				CE5501B928E75F980087C6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5501BA28E75F980087C6FA /* Build configuration list for PBXNativeTarget "VPD Money Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5501BB28E75F980087C6FA /* Debug */,
+				CE5501BC28E75F980087C6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5501BD28E75F980087C6FA /* Build configuration list for PBXNativeTarget "VPD Money AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5501BE28E75F980087C6FA /* Debug */,
+				CE5501BF28E75F980087C6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5501C028E75F980087C6FA /* Build configuration list for PBXNativeTarget "VPD Money AssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5501C128E75F980087C6FA /* Debug */,
+				CE5501C228E75F980087C6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE55018828E75F900087C6FA /* Project object */;
+}
